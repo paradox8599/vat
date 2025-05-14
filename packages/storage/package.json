@@ -23,5 +23,9 @@
   },
   "devDependencies": {
     "@extension/tsconfig": "workspace:*"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "vrchat": "^1.19.1"
   }
 }

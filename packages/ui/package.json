@@ -24,10 +24,12 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@extension/storage": "workspace:*",
     "@extension/shared": "workspace:*",
+    "@extension/storage": "workspace:*",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^2.4.0"
+    "swr": "^2.3.3",
+    "tailwind-merge": "^2.4.0",
+    "vrchat": "^1.19.1"
   },
   "devDependencies": {
     "@extension/tsconfig": "workspace:*",
