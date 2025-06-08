@@ -1,4 +1,4 @@
-import { useAuth } from '../hooks/useAuth';
+import useAuth from '../hooks/useAuth';
 
 export function VATApp() {
   const { data: me, isLoading, isValidating, clear } = useAuth();

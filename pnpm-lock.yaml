@@ -438,8 +438,6 @@ importers:
         specifier: workspace:*
         version: link:../../packages/vite-config
 
-  pages/shared: {}
-
   pages/side-panel:
     dependencies:
       '@extension/i18n':

@@ -6,7 +6,7 @@ import type { CurrentUser } from 'vrchat';
 
 const UPDATE_INTERVAL = 5 * 60 * 1000;
 
-export function useAuth() {
+export default function useAuth() {
   const authStore = useStorage(authStorage);
 
   const isStale = authStore.user === null || Date.now() - authStore.updatedAt > UPDATE_INTERVAL;
